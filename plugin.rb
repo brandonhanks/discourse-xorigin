@@ -2,4 +2,4 @@ Rails.application.config.action_dispatch.default_headers.merge!({'X-Frame-Option
 Rails.application.config.action_dispatch.default_headers.merge!({'Access-Control-Allow-Origin' => '*'})
 Rails.application.config.action_dispatch.default_headers.merge!({'Access-Control-Allow-Methods' => 'GET, POST, OPTIONS, DELETE'})
 Rails.application.config.action_dispatch.default_headers.merge!({'Access-Control-Allow-Headers' => 'Content-Type, Authorization, X-Requested-With'})
-Rails.application.config.action_dispatch.default_headers.merge!({'Content-Security-Policy' => 'default-src 'self' zodiacpd.org *.zodiacpd.org zodiacpd.herokuapp.com'})
+Rails.application.config.action_dispatch.default_headers.merge!({'Content-Security-Policy' => 'default-src \'self\' zodiacpd.org *.zodiacpd.org zodiacpd.herokuapp.com'})
